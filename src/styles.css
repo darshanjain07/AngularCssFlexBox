@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  height: 300px;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  color: white;
+  font-size: 24px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-10 {
+  flex: 10%;
+}
+
+.col-20 {
+  flex: 20%;
+}
+
+.col-30 {
+  flex: 30%;
+}
+
+.col-40 {
+  flex: 40%;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-60 {
+  flex: 60%;
+}
+
+.col-70 {
+  flex: 70%;
+}
+
+.col-80 {
+  flex: 80%;
+}
+
+.col-90 {
+  flex: 90%;
+}
+
+.col-100 {
+  flex: 100%;
+}

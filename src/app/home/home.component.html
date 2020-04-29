@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="item" [ngStyle]="{'background-color': 'blue'}">Item 1</div>
+  <div class="item" [ngStyle]="{'background-color': 'red'}">Item 2</div>
+  <div class="item" [ngStyle]="{'background-color': 'green'}">Item 3</div>
+  <div class="item" [ngStyle]="{'background-color': 'purple'}">Item 3</div>
+  <div class="item" [ngStyle]="{'background-color': 'violet'}">Item 3</div>
+</div>
+
+
+<h1>Create Columns</h1>
+
+<div class="row">
+  <div class="col-30" [ngStyle]="{'background-color': '#f1f1f1', 'padding':'20px', 'height':'200px'}">
+    This is sidebar 30% width
+    <ul>
+      <li>Line 1 text</li>
+      <li>Line 2 text</li>
+      <li>Line 3 text</li>
+    </ul>
+  </div>
+
+  <div class="col-70" [ngStyle]="{'padding':'20px', 'height':'200px'}">
+    This is main content 70% width
+    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+      The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of
+      Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-50" [ngStyle]="{'background-color': 'aliceblue','padding':'20px', 'height':'200px'}"> Col 1 50% width
+  </div>
+  <div class="col-50" [ngStyle]="{'background-color': 'beige','padding':'20px', 'height':'200px'}"> Col 2 50% width
+  </div>
+</div>
